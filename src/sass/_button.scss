@@ -1,0 +1,31 @@
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+    // position: relative;
+    height: 100%;
+  
+    & .load-more,
+    .close-btn {
+      margin-bottom: 40px;
+      margin-top: 40px;
+      width: 100px;
+      height: 40px;
+      right: 30px;
+    background-color: aqua;
+      border-radius: 10%;
+      border: 1px solid #444;
+      &:hover {
+        color: #fff;
+        background: #444;
+
+        border: 1px solid #444;
+      }
+    }
+    & .load-more {
+      bottom: 20px;
+    }
+    & .close-btn {
+      bottom: 80px;
+    }
+  }
+  
